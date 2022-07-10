@@ -75,6 +75,7 @@ aside {
 .message {
     width: 515px;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 .payment{
