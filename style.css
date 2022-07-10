@@ -1,0 +1,119 @@
+* {
+    font-size: 20px;
+}
+
+* > main {
+    margin-top: 120px;
+    /* botei no contato */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-height: 115px;
+    background-color: aliceblue;
+}
+
+.navbar-collapse {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-inline {
+    display: flex;
+}
+
+#navbarToggler {
+    padding-left: 15px;
+    height: 115px;
+} 
+
+.navbar-brand {
+    width: fit-content;
+}
+
+.carousel-item {
+    height: 700px;
+    width: 2000px;
+}
+
+.carousel-img {
+    filter: brightness(0.5);
+}
+
+#carousel {
+    width: -webkit-fill-available;
+}
+
+.carousel-caption {
+    text-align: start;
+}  
+
+aside {
+    height: 500px;
+    margin: 0px 0px auto 560px;
+    background-image: url(/img/call-center-7040784_1280.png);
+    /* botei no contato */
+    max-width: 500px;
+    margin: auto;
+    max-height: 700px;
+    min-height: 300px;
+    width: 501px;
+    padding: 2px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.message {
+    width: 515px;
+    padding: 10px;
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+
+.conteiner {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.marketing {
+    max-width: -webkit-fill-available;
+    padding: 20px;
+}
+
+.btn {
+    background-color:  #2ecdd4;
+    outline: auto #00c2cb;
+}
+
+.featurette-heading, .lead {
+font-style: inherit;
+vertical-align: inherit;
+}
+
+footer {
+    margin: 10px;
+    padding: 10px;
+    border-top: ridge;
+    background-color: #d3d3d3b5;
+    min-width: -webkit-fill-available;
+}
