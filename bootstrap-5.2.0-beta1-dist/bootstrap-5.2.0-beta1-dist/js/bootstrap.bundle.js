@@ -2695,7 +2695,7 @@
       // 0.001
       // Fallback here: "Not Safari" userAgent
 
-      if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgent)) {
+      if (!/^((?!chrome|android).)*safari/i.test(navigator.userAgentData)) {
         x = visualViewport.offsetLeft;
         y = visualViewport.offsetTop;
       }

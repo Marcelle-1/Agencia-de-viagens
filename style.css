@@ -1,5 +1,6 @@
 * {
     font-size: 20px;
+    text-decoration: none;
 }
 
 * > main {
@@ -9,6 +10,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+* > a {
+    text-decoration: none;
 }
 
 .navbar {
@@ -29,9 +34,10 @@
     display: flex;
 }
 
-#navbarToggler {
+#navbarToggleExternalContent {
     padding-left: 15px;
     height: 115px;
+    background-color: aliceblue;
 } 
 
 .navbar-brand {
@@ -106,9 +112,15 @@ aside {
     outline: auto #00c2cb;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .featurette-heading, .lead {
-font-style: inherit;
-vertical-align: inherit;
+    font-style: inherit;
+    vertical-align: inherit;
 }
 
 footer {
