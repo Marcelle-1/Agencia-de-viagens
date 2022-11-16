@@ -1,5 +1,6 @@
-<h1>Site de Agência de viangens</h1>
+<h1>Site de Agência de viagens</h1>
 <p>Projeto de site de agência de viagens feito no curso da Recode Pro<p>
+  
 <h3>Tecnologias usadas</h3>
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
